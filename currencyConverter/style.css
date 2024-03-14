@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background:#9B89B3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 600px;
+  padding: 50px;
+ 
+  box-shadow: 6px 10px 74px 0px rgba(155,137,179,0.75);
+  -webkit-box-shadow: 6px 10px 74px 0px rgba(155,137,179,0.75);
+  -moz-box-shadow: 6px 10px 74px 0px rgba(155,137,179,0.75);
+  margin: auto; 
+  margin-top: 200px; 
+  border-radius: 10px;
+}
+
+.container h1 {
+  margin-bottom: 60px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.main {
+  display: flex;
+}
+
+input{
+  font-size: 20px;
+  width: 200px;
+  border: none;
+  background: rgb(197, 80, 80);
+  color: rgb(240, 240, 120);
+}
+
+select{
+  font-family: 20px;
+  background: rgb(197, 80, 80);
+}
+
+.left-dropDown,
+.right-dropDown {
+  margin: 0 10px; 
+}
+
+.btn {
+  margin-top: 20px; 
+  width: 199px;
+  height: 45px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 2px solid rgb(197, 80, 80);
+  background-color: rgb(240, 240, 120);
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
